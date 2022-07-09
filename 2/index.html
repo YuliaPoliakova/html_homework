@@ -6,98 +6,198 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Homework2</title>
+   <style>
+      @font-face {
+         font-family: KingsBureauGrot;
+         src: url(./font/KingsBureauGrot-FiveOne-Regular.ttf);
+      }
+
+      h1 {
+         font-family: 'KingsBureauGrot';
+         font-style: normal;
+         font-weight: 700;
+         font-size: 20px;
+         line-height: 25px;
+         letter-spacing: 0.25px;
+         color: #000000;
+      }
+
+      .main {
+         width: 100%;
+         background-color: #E5E5E5;
+      }
+
+      .part-1,
+      .table {
+         width: 1024px;
+         margin: 0 auto;
+         background-color: #FFFFFF;
+      }
+
+      .bg {
+         width: 975px;
+         height: 622px;
+         background: url('./img/image 3.png') no-repeat;
+         margin-top: 18px;
+      }
+
+      p {
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         /* line-height: 24px; */
+         letter-spacing: -0.025em;
+         color: #333333;
+      }
+
+      .img-2 {
+         margin-top: 24px;
+      }
+
+      .img-2 h1 {
+         text-align: center;
+      }
+
+      .img-3 {
+         text-align: center;
+      }
+
+      .img-3 h1 {
+         text-align: right;
+         margin: 44px 50px 0 0;
+      }
+
+      .img-3 img {
+         width: 767px;
+      }
+
+      .img-5 {
+         margin-top: 28px;
+      }
+
+      .img-5 img {
+         margin-top: 7px;
+      }
+
+      .img-5 h1 {
+         margin-bottom: 0;
+      }
+
+      .img-6 {
+         margin-top: 32px;
+      }
+
+      .img-7 {
+         margin-top: 56px;
+         text-align: center;
+         padding-bottom: 28px;
+      }
+
+      .table {
+         margin-top: 85px;
+         padding: 30px 15px;
+      }
+
+      table {
+         width: 100%;
+         border: 2px solid;
+      }
+
+      td {
+         height: 40px;
+         border: 2px solid;
+      }
+   </style>
 </head>
 
 <body>
-   <div id="main">
-      <div class="img-1">
-         <h1>Full width image with caption</h1>
-         <img src="img/image 3.png" alt="photo_town">
-         <p>Carrot cake chupa chups gummi bears sweet fruitcake gummi bears sweet roll marzipan.</p>
+   <div class="main">
+      <div class="part-1">
+         <div class="img-1">
+            <h1>Full width image with caption</h1>
+            <div class="bg"></div>
+            <p>Carrot cake chupa chups gummi bears sweet fruitcake gummi bears sweet roll marzipan.</p>
+         </div>
+         <div class="img-2">
+            <h1>Full width image with caption</h1>
+            <img src="img/image 3.png" alt="photo_town">
+         </div>
+         <div class="img-3">
+            <h1>Centered image with caption</h1>
+            <img src="img/image 3.png" alt="photo_town">
+            <p>Carrot cake chupa chups gummi bears sweet fruitcake gummi bears sweet roll marzipan.</p>
+         </div>
+         <div class="img-4">
+            <h1>Centered image with caption</h1>
+            <img src="img/image 3.png" alt="photo_town">
+         </div>
+         <div class="img-5">
+            <h1>Images with horizontal scroll</h1>
+            <img src="img/image 7.png" alt="table">
+            <p>An example of a wide image that may require horizontal scroll depending on device width.</p>
+         </div>
+         <div class="img-6">
+            <h1>Screenshots</h1>
+            <img src="img/image 8.png" alt="Screenshots">
+         </div>
+         <div class="img-7">
+            <h1>Circular images</h1>
+            <img src="img/avatar.png" alt="avatar">
+         </div>
       </div>
-      <div class="img-2">
-         <h1>Full width image with caption</h1>
-         <img src="img/image 3.png" alt="photo_town">
-      </div>
-      <div class="img-3">
-         <h1>Centered image with caption</h1>
-         <img src="img/image 3.png" alt="photo_town">
-         <p>Carrot cake chupa chups gummi bears sweet fruitcake gummi bears sweet roll marzipan.</p>
-      </div>
-      <div class="img-4">
-         <h1>Centered image with caption</h1>
-         <img src="img/image 3.png" alt="photo_town">
-      </div>
-      <div class="img-5">
-         <h1>Images with horizontal scroll</h1>
-         <img src="img/image 7.png" alt="table">
-         <p>An example of a wide image that may require horizontal scroll depending on device width.</p>
-      </div>
-      <div class="img-6">
-         <h1>Screenshots</h1>
-         <img src="img/image 8.png" alt="Screenshots">
-      </div>
-      <div class="img-7">
-         <h1>Circular images</h1>
-         <img src="img/avatar.png" alt="avatar">
 
+
+      <div class="table">
+         <table cellspacing="0" cellpadding="0">
+            <tr>
+               <td colspan="2"></td>
+               <td></td>
+               <td></td>
+               <td colspan="2"></td>
+
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td colspan="2"></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td colspan="2" rowspan="2"></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td rowspan="4"></td>
+            </tr>
+            <tr>
+               <td colspan="3"></td>
+
+
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+
+            </tr>
+
+         </table>
       </div>
 
    </div>
 
-   <div id="table">
-      <table border="2">
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-         </tr>
-
-      </table>
-   </div>
 
 </body>
 
