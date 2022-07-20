@@ -136,7 +136,7 @@ header h1 span {
    width: 973px;
 }
 
-.btn-container button {
+.btn-container .btn-support {
    width: 430px;
    height: 74px;
    margin-top: -50px;
@@ -146,6 +146,9 @@ header h1 span {
    font-weight: 700;
    font-size: 48px;
    color: #FFFFFF;
+   text-decoration: none;
+   display:inline-block;
+   padding-top: 20px;
 }
 
 footer {
